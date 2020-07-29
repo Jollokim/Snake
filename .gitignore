@@ -1,0 +1,12 @@
+/.idea
+/build
+/dist
+__pycache__/
+*.py[cod]
+SudokuSolver.spec
+Snake-StartGame.exe
+Snake.zip
+snake.png
+snake2.png
+Main.spec
+
