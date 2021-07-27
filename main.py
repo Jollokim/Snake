@@ -20,10 +20,8 @@ height = 20
 
 
 snake = snake.Snake(win)
-apple = apple.Apple(win, snake)
 apple1 = apple.Apple(win, snake)
-
-# problem if more apples get eaten under growth
+apple2 = apple.Apple(win, snake)
 
 
 def drawGrid():
@@ -68,8 +66,8 @@ while run:
 
     drawGrid()
 
-    apple.render()
     apple1.render()
+    apple2.render()
     snake.render()
 
     if not snake.snakeAlive:
